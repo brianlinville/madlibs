@@ -1,0 +1,22 @@
+{
+  "name": "volley",
+  "version": "1.0.0",
+  "description": "Volley test",
+  "main": "app.js",
+  "scripts": {
+    "test": "volley"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stigmasound/Volley.git"
+  },
+  "keywords": [
+    "madlibs"
+  ],
+  "author": "Brian Linville",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/stigmasound/Volley/issues"
+  },
+  "homepage": "https://github.com/stigmasound/Volley#readme"
+}
