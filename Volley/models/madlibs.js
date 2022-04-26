@@ -35,6 +35,15 @@ function getCharCodes(nameString, age){
 ** <his / her> tombstone is written the sage advice:
 **
 ** <adice from outside API> */
+function getStoryAPI (v, inputName) {
+    let story = "In a past life, " + inputName + " was born " + getMLnames(v) + " " + getMLlastNames(v) + ".  ";
+    story = story + getMLnames(v) +  " was born in " + getMLtown(v) + " to a family of " + getMLfamily(v) + ".  ";
+    story = story + "Raised by " + getMLraised(v) + ", " + getMLnames(v) + "'s life ambition was to ";
+    story = story + getMLambition(v) + ", " + getMLcondition(v) + " " + getMLresult(v) + ".  Sadly, ";
+    story = story + getMLnames(v) +  " passed away at the age of " + getMLage(v) + " " + getMLdeath(v) + ".  On ";
+    story = story + getMLpronoun(v) + " tombstone is written the sage advice: " + getMLadvice(v);
+    return story;
+}
 function getStoryP1 (v, inputName) {
     let story = "In a past life, " + inputName + " was born " + getMLnames(v) + " " + getMLlastNames(v) + ".  ";
     story = story + getMLnames(v) +  " was born in " + getMLtown(v) + " to a family of " + getMLfamily(v) + ".  ";
@@ -53,4 +62,4 @@ function getStoryAdvice (v, inputName) {
     return getMLadvice(v);
 }
 
-module.exports = { getStoryP1, getStoryP2, getStoryAdvice, getCharCodes };
+module.exports = { getStoryAPI, getStoryP1, getStoryP2, getStoryAdvice, getCharCodes };

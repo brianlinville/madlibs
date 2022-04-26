@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/stigmasound/Volley/issues"
   },
-  "homepage": "https://github.com/stigmasound/Volley#readme"
+  "homepage": "https://github.com/stigmasound/Volley#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "embed-js": "^5.0.4",
+    "express": "^4.17.3",
+    "node-fetch": "^2.6.7"
+  }
 }

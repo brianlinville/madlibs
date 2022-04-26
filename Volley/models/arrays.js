@@ -4,15 +4,15 @@ function getMLnames (nameAnswer) {
     "Douglas", "Luna", "Drake", "Ella", "Dustin", "Elizabeth", "Eric", "Sofia", "Gary", "Emily", "Gavin", "Scarlett", "Jared", "Penelope", "Jason", "Madison", "Jeffrey", "Chloe", "Jeremy", "Grace", 
     "Joeseph", "Ellie", "Justin", "Zoey", "Keith", "Victoria", "Kenneth", "Nova", "Kyle", "Hannah", "Mark", "Lily", "Mathew", "Violet", "Nicolas", "Stella", "Robert", "Willow", "Samuel", "Lucy", 
     "Scott", "Natalie", "Zachary", "Claire", "Skipper", "Naomi", "William", "Elana", "Charles", "Ivy", "Juan", "Anna", "Timothy", "Alice", "Ian", "Lydia", "Daniel", "Hope", "Christopher", "Rose",
-    "Clint", "Anna", "Brett", "Cathrine" ];
+    "Clint", "Anna", "Brett", "Cathrine", "Dean", "Daisy", "Sancho", "Innis" ];
     return MLNames[nameAnswer % MLNames.length];
 }
 
 //Last names
 function getMLlastNames(nameAnswer) {
-    const MLlastNames = ["Smith", "Johnson", "Williams", "Brown", "Shake", "Jones", "Garcia", "Miller", "Davis", "Rodriguez", "Martinez", "Hernandez", "Lopez", "Gonzalez", "Wilson", "Anderson", "Thomas", "Taylor", 
+    const MLlastNames = ["Smith", "Witcraft", "Johnson", "Williams", "Brown", "Shake", "Jones", "Garcia", "Miller", "Davis", "Rodriguez", "Martinez", "Hernandez", "Lopez", "Gonzalez", "Wilson", "Anderson", "Thomas", "Taylor", 
     "Moore", "Jackson", "Martin", "Lee", "Perez", "Thompson", "White", "Harris", "Sanchez", "Clark", "Ramirez", "Lewis", "Robinson", "Walker", "Young", "Allen", "King", "Wright", "Scott", "Torres", "Nguyen", 
-    "Hill", "Flores", "Green", "Adams", "Nelson", "Baker", "Hall", "Rivera", "Campbell", "Mitchell", "Carter", "Roberts", "Washington", "West", "Franco", "Moretti", "Burney", "Fillipo", "Newton"];
+    "Hill", "Flores", "Green", "Adams", "Nelson", "Baker", "Hall", "Rivera", "Campbell", "Mitchell", "Carter", "Roberts", "Washington", "West", "Franco", "Moretti", "Burney", "Fillipo", "Newton", "Carlson" ];
     return MLlastNames[nameAnswer % MLlastNames.length];
 }
 
@@ -24,14 +24,16 @@ function getMLpronoun(nameAnswer) {
 
 //Town
 function getMLtown(nameAnswer) {
-    const MLtown = ["Tiddlewinks, England", "Darlington, South Carolina", "Locksville, Arizona", "Camino, Spain", "Chester, Colorado", "Penshaw, Florida", "Anwick, New Jersey", "Gutherhiem, Alabama", "Murray, New Zealand", 
-    "Chonkers, Nebraska", "Lancaster, England", "Kald, Sweden", "Wingston, Idaho", "Minchi, China", "Ajanta, India", "Niah, Malaysia", "Chauvet, France", "Adder, Nigeria"];
+    const MLtown = ["Tiddlewinks, England", "Darlington, South Carolina", "Locksville, Arizona", "Camino, Spain", "Chester, Colorado", "Penshaw, Florida", "Anwick, New Jersey", "Gutherhiem, Alabama", "Chicago, Illinois", 
+    "Murray, New Zealand", "Chonkers, Nebraska", "Lancaster, England", "Kald, Sweden", "Wingston, Idaho", "Minchi, China", "Ajanta, India", "Niah, Malaysia", "Chauvet, France", "Adder, Nigeria", "Anwa, Australia", 
+    "Abeokuta, Nigeria", "Duckwater, Canada", "Llanfairpwllgwyngyll, Wales" ];
     return MLtown[nameAnswer % MLtown.length];
 }
 
 //Family of ____
 function getMLfamily (nameAnswer) {
-    const MLfamily = ["glass blowers", "railroad workers", "psychics", "french chefs", "arctic explorers", "deep sea pearl divers", "scientists", "circus performers", "astronauts", "foot doctors", "lettuce farmers", 
+    const MLfamily = ["glass blowers", "railroad workers", "taffy makers", "psychics", "french chefs", "arctic explorers", "deep sea pearl divers", "scientists", "circus performers", "astronauts", 
+    "foot doctors", "lettuce farmers", "peacan farmers", "high plains outlaws", "bird house builders", 
     "aristocrats", "high school teachers", "accountants", "politicians", "stage actors", "tile setters", "lawyers", "house painters", "poets", "blue grass musicians", "cattle ranchers", "realestate managers"];
     return MLfamily[nameAnswer % MLfamily.length];
 }
@@ -45,8 +47,8 @@ function getMLraised (nameAnswer) {
 
 //Ambition
 function getMLambition(nameAnswer) {
-    const MLambition = ["be knighted by the queen", "to be a train conductor", "to write a symphony", "raise rabbits in Montana", "cure mad cow disease", "learn how to read", "compete in a hotdog eating contest", 
-    "finally finish a crossword puzzle", "run a marathon", "go to the store and only buy the items on the list",
+    const MLambition = ["be knighted by the queen", "be famous", "be a train conductor", "write a symphony", "raise rabbits in Montana", "cure mad cow disease", "learn how to read", "compete in a hotdog eating contest", 
+    "finally finish a crossword puzzle", "run a marathon", "go to the store and only buy the items on the list", "learn how to juggle", "bake the perfect apple pie",
     "help people", "get rich", "sail around the world", "climb a mountain", "learn Japanese", "go sky diving", "run for office", "fall inlove", "become a ballroom dancer", "buy a house", "sing in the grand ole opry",
     "eat 100 grilled cheese sandwiches in a single day", "get accepted to a top clown college", "have child named 'Life' that gives out lemons at a fruit stand", "win a Nobel prize", "go on a grand safari"];
     return MLambition[nameAnswer % MLambition.length];
@@ -69,7 +71,7 @@ function getMLresult(nameAnswer) {
 
 //Age
 function getMLage(nameAnswer) {
-    const tempAge = nameAnswer % 80
+    const tempAge = nameAnswer % 70
     return tempAge + 40;
 }
 
