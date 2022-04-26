@@ -12,7 +12,7 @@ function getMLnames (nameAnswer) {
 function getMLlastNames(nameAnswer) {
     const MLlastNames = ["Smith", "Witcraft", "Johnson", "Williams", "Brown", "Shake", "Jones", "Garcia", "Miller", "Davis", "Rodriguez", "Martinez", "Hernandez", "Lopez", "Gonzalez", "Wilson", "Anderson", "Thomas", "Taylor", 
     "Moore", "Jackson", "Martin", "Lee", "Perez", "Thompson", "White", "Harris", "Sanchez", "Clark", "Ramirez", "Lewis", "Robinson", "Walker", "Young", "Allen", "King", "Wright", "Scott", "Torres", "Nguyen", 
-    "Hill", "Flores", "Green", "Adams", "Nelson", "Baker", "Hall", "Rivera", "Campbell", "Mitchell", "Carter", "Roberts", "Washington", "West", "Franco", "Moretti", "Burney", "Fillipo", "Newton", "Carlson" ];
+    "Hill", "Flores", "Green", "Adams", "Nelson", "Baker", "Hall", "Rivera", "Campbell", "Mitchell", "Carter", "Roberts", "Washington", "West", "Franco", "Moretti", "Burney", "Fillipo", "Newton", "Carlson", "Ngo" ];
     return MLlastNames[nameAnswer % MLlastNames.length];
 }
 
