@@ -4,15 +4,15 @@ function getMLnames (nameAnswer) {
     "Douglas", "Luna", "Drake", "Ella", "Dustin", "Elizabeth", "Eric", "Sofia", "Gary", "Emily", "Gavin", "Scarlett", "Jared", "Penelope", "Jason", "Madison", "Jeffrey", "Chloe", "Jeremy", "Grace", 
     "Joeseph", "Ellie", "Justin", "Zoey", "Keith", "Victoria", "Kenneth", "Nova", "Kyle", "Hannah", "Mark", "Lily", "Mathew", "Violet", "Nicolas", "Stella", "Robert", "Willow", "Samuel", "Lucy", 
     "Scott", "Natalie", "Zachary", "Claire", "Skipper", "Naomi", "William", "Elana", "Charles", "Ivy", "Juan", "Anna", "Timothy", "Alice", "Ian", "Lydia", "Daniel", "Hope", "Christopher", "Rose",
-    "Clint", "Anna", "Brett", "Cathrine", "Dean", "Daisy", "Sancho", "Innis" ];
+    "Clint", "Anna", "Brett", "Cathrine", "Dean", "Daisy", "Sancho", "Innis", "Skippy", "Poppy" ];
     return MLNames[nameAnswer % MLNames.length];
 }
 
 //Last names
 function getMLlastNames(nameAnswer) {
     const MLlastNames = ["Smith", "Witcraft", "Johnson", "Williams", "Brown", "Shake", "Jones", "Garcia", "Miller", "Davis", "Rodriguez", "Martinez", "Hernandez", "Lopez", "Gonzalez", "Wilson", "Anderson", "Thomas", "Taylor", 
-    "Moore", "Jackson", "Martin", "Lee", "Perez", "Thompson", "White", "Harris", "Sanchez", "Clark", "Ramirez", "Lewis", "Robinson", "Walker", "Young", "Allen", "King", "Wright", "Scott", "Torres", "Nguyen", 
-    "Hill", "Flores", "Green", "Adams", "Nelson", "Baker", "Hall", "Rivera", "Campbell", "Mitchell", "Carter", "Roberts", "Washington", "West", "Franco", "Moretti", "Burney", "Fillipo", "Newton", "Carlson" ];
+    "Moore", "Jackson", "Martin", "Lee", "Perez", "Thompson", "White", "Harris", "Sanchez", "Clark", "Ramirez", "Lewis", "Robinson", "Walker", "Young", "Allen", "King", "Wright", "Scott", "Torres", "Nguyen", "McGee", 
+    "Hill", "Flores", "Green", "Adams", "Nelson", "Baker", "Hall", "Rivera", "Campbell", "Mitchell", "Carter", "Roberts", "Washington", "West", "Franco", "Moretti", "Burney", "Fillipo", "Newton", "Carlson", "Ngo" ];
     return MLlastNames[nameAnswer % MLlastNames.length];
 }
 
